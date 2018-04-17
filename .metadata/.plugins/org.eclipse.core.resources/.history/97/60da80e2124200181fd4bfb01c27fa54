@@ -1,0 +1,14 @@
+# Main DB
+spring.datasource.url=jdbc:mysql://localhost:3306/dc_main?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.username=user_main
+spring.datasource.password=main123
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+
+# Personal User Info
+spring.personaldatasource.url=jdbc:mysql://localhost:3306/dc_personal?createDatabaseIfNotExist=true&useSSL=false
+spring.personaldatasource.username=user_personal
+spring.personaldatasource.password=personal123
+spring.personaldatasource.driverClassName=com.mysql.jdbc.Driver
+
+spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+spring.jpa.database=default

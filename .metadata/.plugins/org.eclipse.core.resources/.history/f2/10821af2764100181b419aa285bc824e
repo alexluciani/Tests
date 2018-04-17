@@ -1,0 +1,7 @@
+package com.example.doubleconnection.model.personal;
+
+@Entity
+@Table(schema = "spring_jpa_personal")
+public class Personal {
+
+}

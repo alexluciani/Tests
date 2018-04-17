@@ -1,0 +1,11 @@
+package com.example.doubleconnection;
+
+@Configuration
+@EnableJpaRepositories(
+    basePackages = "com.example.doubleconnection.dao.main", 
+    entityManagerFactoryRef = "mainEntityManager", 
+    transactionManagerRef = "mainTransactionManager"
+)
+public class MainConfig {
+
+}

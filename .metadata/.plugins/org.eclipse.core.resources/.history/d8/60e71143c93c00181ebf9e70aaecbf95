@@ -1,0 +1,7 @@
+package com.letsstartcoding.springbootrestapiexample.dao;
+
+public class EmployeeDAO {
+
+	EmployeeRepository employeeRepository;
+	
+}

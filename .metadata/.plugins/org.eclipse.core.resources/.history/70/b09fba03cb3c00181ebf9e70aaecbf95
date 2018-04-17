@@ -1,0 +1,22 @@
+package com.letsstartcoding.springbootrestapiexample.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.letsstartcoding.springbootrestapiexample.dao.EmployeeDAO;
+
+@RestController
+@RequestMapping("/company")
+public class EmployeeController {
+
+	@Autowired
+	EmployeeDAO employeeDAO;
+	
+	//save
+	@PostMapping("/employees")
+	public Employee createEmployee(@Valid @RequestBody Employee emp) {
+		
+	}
+	
+}

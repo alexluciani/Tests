@@ -1,0 +1,7 @@
+package com.letsstartcoding.springbootrestapiexample.repository;
+
+import com.letsstartcoding.springbootrestapiexample.model.Employee;
+
+public class EmployeeRepository extends JpaRepository<Employee, Long>{
+
+}

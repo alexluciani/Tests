@@ -1,0 +1,28 @@
+package com.letsstartcoding.springbootrestapiexample.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.letsstartcoding.springbootrestapiexample.model.Employee;
+import com.letsstartcoding.springbootrestapiexample.repository.EmployeeRepository;
+
+public class EmployeeDAO {
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+	//SAVE
+	public Employee save(Employee emp) {
+		return employeeRepository.save(emp);
+	}
+	
+	//GET ALL
+	public List<Employee> getAll() {
+		return employeeRepository.findAll();
+	}
+	
+	//GET
+	
+	
+	//DELETE
+	
+}

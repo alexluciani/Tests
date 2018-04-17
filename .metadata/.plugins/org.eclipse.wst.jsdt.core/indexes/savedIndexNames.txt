@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Projects\nubedian\STS_WS_Tutorial1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3036413219.index
+3494955945.index
+478208759.index
+560783965.index
+2157190727.index
+99618861.index

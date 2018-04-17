@@ -1,0 +1,11 @@
+# Main DB
+spring.datasource.url=jdbc:mysql://localhost:3306/dc_main?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.username=user_main
+spring.datasource.password=main123
+
+# Personal User Info
+personal.datasource.url=jdbc:mysql://localhost:3306/dc_personal?createDatabaseIfNotExist=true&useSSL=false
+personal.datasource.username=user_personal
+personal.datasource.password=personal123
+
+spring.jpa.database=default

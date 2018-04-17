@@ -1,0 +1,19 @@
+package com.example.doubleconnection.model.personal;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(schema = "spring_jpa_personal")
+public class Personal {
+
+    @Id
+    private int id;
+ 
+    private String name;
+    private String surname;
+    private String phone;
+    private String address;
+	
+}

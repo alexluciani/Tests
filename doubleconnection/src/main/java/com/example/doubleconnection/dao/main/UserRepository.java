@@ -1,0 +1,9 @@
+package com.example.doubleconnection.dao.main;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.doubleconnection.model.main.User;
+
+public interface UserRepository extends JpaRepository<User, Integer> { 
+
+}

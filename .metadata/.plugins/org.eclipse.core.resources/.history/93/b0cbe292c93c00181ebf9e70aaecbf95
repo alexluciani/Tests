@@ -1,0 +1,10 @@
+package com.letsstartcoding.springbootrestapiexample.dao;
+
+import com.letsstartcoding.springbootrestapiexample.repository.EmployeeRepository;
+
+public class EmployeeDAO {
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+}

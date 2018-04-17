@@ -1,0 +1,5 @@
+package com.example.doubleconnection.dao.main;
+
+public interface UserRepository extends JpaRepository<User, Integer> { }
+
+}

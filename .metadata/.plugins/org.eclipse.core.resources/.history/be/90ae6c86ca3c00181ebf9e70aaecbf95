@@ -1,0 +1,6 @@
+package com.letsstartcoding.springbootrestapiexample.controller;
+
+@RestController
+public class EmployeeController {
+
+}

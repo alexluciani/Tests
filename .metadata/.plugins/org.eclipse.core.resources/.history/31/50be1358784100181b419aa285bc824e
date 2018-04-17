@@ -1,0 +1,5 @@
+package com.example.doubleconnection.dao.personal;
+
+public interface PersonalRepository {
+
+}

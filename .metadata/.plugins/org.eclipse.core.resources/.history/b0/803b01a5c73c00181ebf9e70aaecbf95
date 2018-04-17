@@ -1,0 +1,21 @@
+package com.letsstartcoding.springbootrestapiexample.model;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Table;
+
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+@Entity
+@Table(name="Employees")
+@EntityListeners(AuditingEntityListener.class)
+public class Employee {
+
+	private Long id;
+	private String name;
+	private String designation;
+	private String expertise;
+	private Date createdAt;
+	
+	
+}
